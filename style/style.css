@@ -1,0 +1,181 @@
+html {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+}
+
+body {
+	font-family:'Comfortaa', cursive, Arial;
+	font-size: 13pt;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 0;
+}
+
+.menu {
+	background-color: 
+	height: 100%;
+	width: 400px;
+	position: fixed;
+	left: -450px;
+	top: 1%;
+	border: solid black 2px;
+	padding-bottom: 700px;
+	background-color: #B0E0E6; /*#00CED1*/
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10px;
+	/*visibility: hidden;*/
+}
+
+.section {
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+h1 span{
+	border: 4px dashed #20bcd5;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.butter {
+	text-align: left;
+}
+
+li.lof {
+	text-align: left;
+	display: list-item;
+	margin-bottom: 20px; 
+	margin-top: 10px;
+}
+
+ol.section {
+   /* list-style: none;*/
+}
+
+.arrow {
+	text-align: right;
+}
+
+.icons {
+	width: 50px;
+	height: 60%;
+}
+
+tr, td {
+	width: 250px;
+	height: 100%;
+	border-style: outset;
+	border-width: 3px;
+	text-align: center;
+}
+
+
+table {
+	width: 100%;
+	height: 100%;
+	border: 4px dotted #F0E68C;
+	padding: 10px;
+
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+.image img {
+	width: 350px;
+	height: 60%;
+	
+}
+
+/*зелёная рамка*/
+#gdef span{
+	padding: 5px;
+	background-color: #ADFF2F;
+}
+
+#gdef {
+	border: 4px solid #ADFF2F;
+	padding: 10px;
+	text-align: center;
+}
+
+.gb{
+	margin-top: -5px;
+}
+
+#gdef p {
+	text-align: justify;
+}
+
+
+.contacts {
+	text-align: left;
+}
+
+.return {
+	text-align: right;
+}
+
+/*синяя рамка*/
+#bdef {
+	border: 4px solid #6495ED;
+	padding: 10px;
+	text-align: center;
+}
+
+#bdef span{
+	padding: 5px;
+	background-color: #6495ED;
+}
+
+.bb {
+	margin-top: -5px;
+}
+
+#bdef p {
+	text-align: justify;
+}
+
+.example {
+	width: 350px;
+	height: 60%;	
+}
+
+/*красная рамка*/
+#rdef {
+	border: 4px solid #DC143C;
+	padding: 10px;
+	text-align: center;
+}
+
+#rdef span{
+	padding: 5px;
+	background-color: #DC143C;
+}
+
+.rb {
+	margin-top: -5px;
+}
+
+#rdef p {
+	text-align: justify;
+}
+
+.last {
+	text-align: center;
+}
+
+h3 {
+	vertical-align: bottom;
+}

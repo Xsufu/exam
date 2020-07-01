@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Menu 1.0</title>
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+		<div class="section">
+			<img class="butter" onclick="move_out();" src="img/menu.png" alt="БУТЕРБРОДИК">
+			<h1><span>Кодирование информации</span></h1>
+		</div>
+
+		<div class="section">
+			<h2>Основные способы кодирования текстовой информации</h2>
+			<h3>Существует несколько основных способов кодирования текстовой информации:</h3>
+			<ol>
+				<li><i>графический</i>, в котором текстовая информация кодируется путем использования специальных рисунков или знаков;</li>
+				<li><i>символьный</i>, в котором тексты кодируются с использованием символов того же алфавита, на котором написан исходник; </li>
+				<li><i>числовой</i>, в котором текстовая информация кодируется с помощью чисел. </li>
+			</ol>
+			<h3>Процесс чтения текста представляет собой процесс, обратный его написанию, в результате которого письменный текст преобразуется в устную речь. Чтение – это ничто иное, как декодирование письменного текста. </h3>
+		</div>
+
+
+		<div id="menu" class="menu">
+			<img class="arrow" onclick="move_in();" src="img/arrow.png" alt="СТРЕЛКА">
+			<br>
+			<ol>
+				<li class="lof"><a href="pages/numEnc.html">ЧИСЛОВОЕ КОДИРОВАНИЕ ТЕКСТОВОЙ ИНФОРМАЦИИ</a></li>
+				<li class="lof"><a href="pages/cryptography.html">КРИПТОГРАФИЯ</a></li>
+				<li class="lof"><a href="pages/shorthand.html">СТЕНОГРФИЯ</a></li>
+				<li class="lof"><a href="pages/links.html">ПОЛЕЗНЫЕ ССЫЛКИ</a></li>
+			</ul>
+			<div class="contacts">
+				<h3>Сайт разработал: Горшков Иван<br>Контакты: <br>
+            	<a onclick="return confirm('Вы уверены, что хотите перейти на сайт vk.com?');" href="https://vk.com/aluno_macarrao"><img src="https://img.icons8.com/color/48/000000/vk-circled.png"/></a>
+			</h3>
+			</div>
+
+			<script src="script/script.js"></script>
+		</div>
+	</body>
+</html>
